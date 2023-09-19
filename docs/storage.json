@@ -57,12 +57,12 @@
       "price_1": {
         "value": "15,00р",
         "unit": "0.5 кг/л",
-        "old": null
+        "old": "17,00р"
       },
       "price_2": {
         "value": "10.10р",
         "unit": "0.5 кг/л",
-        "old": null
+        "old": "12.12р"
       },
       "colors": {
         "category": null

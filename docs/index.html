@@ -103,10 +103,12 @@
                             </div>
                             <div class="price price-1">
                                 <div class="unit" x-text="beer.price_1.unit"></div>
+                                <div class="old-value" x-show="beer.price_1.old" x-text="beer.price_1.old"></div>
                                 <div class="value" x-text="beer.price_1.value"></div>
                             </div>
                             <div class="price price-2">
                                 <div class="unit" x-text="beer.price_2.unit"></div>
+                                <div class="old-value" x-show="beer.price_2.old" x-text="beer.price_2.old"></div>
                                 <div class="value" x-text="beer.price_2.value"></div>
                             </div>
                         </div>
@@ -125,7 +127,7 @@
                 Вторая цена <span class="label">бар</span>
             </div>
         </div>
-        <div class="right-column">
+        <div class="right-column" x-show="packages.length">
             <div class="headline">Стоимость бутылки:</div>
             <div class="packages">
                 <template x-for="package in packages">
