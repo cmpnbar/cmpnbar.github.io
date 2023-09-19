@@ -116,15 +116,25 @@
         </template>
     </div>
     <div class="footer" x-cloak x-show="!loading">
-        <div>
-            <div>Первая цена: магазин</div>
-            <div>Вторая цена: бар</div>
+        <div class="left-column">
+            <div class="row">
+                Первая цена: магазин
+                <div class="arrow arrow-1"></div>
+            </div>
+            <div class="row">
+                Вторая цена: бар
+            </div>
         </div>
-        <div>
-            <div>Стоимость бутылки</div>
-            <template x-for="package in packages">
-                <div><span x-text="package.size"></span> <span x-text="package.price"></span></div>
-            </template>
+        <div class="right-column">
+            <div class="headline">Стоимость бутылки:</div>
+            <div class="packages">
+                <template x-for="package in packages">
+                    <div class="package">
+                        <span class="size" x-text="package.size"></span>
+                        <span class="price" x-text="package.price"></span>
+                    </div>
+                </template>
+            </div>
         </div>
     </div>
 </main>
