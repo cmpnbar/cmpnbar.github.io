@@ -118,11 +118,11 @@
     <div class="footer" x-cloak x-show="!loading">
         <div class="left-column">
             <div class="row">
-                Первая цена: магазин
+                Первая цена <span class="label">магазин</span>
                 <div class="arrow arrow-1"></div>
             </div>
             <div class="row">
-                Вторая цена: бар
+                Вторая цена <span class="label">бар</span>
             </div>
         </div>
         <div class="right-column">
@@ -131,7 +131,7 @@
                 <template x-for="package in packages">
                     <div class="package">
                         <span class="size" x-text="package.size"></span>
-                        <span class="price" x-text="package.price"></span>
+                        <span class="price label" x-text="package.price"></span>
                     </div>
                 </template>
             </div>
