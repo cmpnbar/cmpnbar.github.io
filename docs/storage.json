@@ -1,6 +1,20 @@
 {
   "version": "0.1.1",
   "updated_at": "",
+  "packages": [
+    {
+      "size": "0.5л",
+      "price": "0.65р"
+    },
+    {
+      "size": "1л",
+      "price": "0.75р"
+    },
+    {
+      "size": "1.5л",
+      "price": "0.85р"
+    }
+  ],
   "items": [
     {
       "active": true,
@@ -14,9 +28,15 @@
       "power": "5.2",
       "ibu": "40",
       "category": "IPA - New England",
-      "price": {
+      "price_1": {
         "value": "13,80p",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -34,9 +54,15 @@
       "power": "4.8",
       "ibu": "20",
       "category": "IPA - Session",
-      "price": {
+      "price_1": {
         "value": "15,00р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -47,16 +73,22 @@
       "new": true,
       "hit": true,
       "number": "3",
-      "name": "Red Rock Blaster",
+      "name": "БЕЛЬГИЙСКИЙ ПШЕНИЧНЫЙ ЭЛЬ",
       "cover": null,
       "country": "BY",
       "vendor": "JungleMan",
       "power": "4.8",
       "ibu": "20",
       "category": "IPA - Session",
-      "price": {
+      "price_1": {
         "value": "11.60р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -74,9 +106,15 @@
       "power": "4.9",
       "ibu": "20",
       "category": "IPA - Imperial / Double / LongString",
-      "price": {
+      "price_1": {
         "value": "14.00р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -94,9 +132,15 @@
       "power": "5",
       "ibu": "20",
       "category": "Sour - Other Gose",
-      "price": {
+      "price_1": {
         "value": "21.00р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -114,9 +158,15 @@
       "power": "6.9",
       "ibu": "20",
       "category": "Porter - Imperial Down",
-      "price": {
+      "price_1": {
         "value": "12.30р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -134,9 +184,15 @@
       "power": "6.8",
       "ibu": "20",
       "category": "Sour - Fruited Gose",
-      "price": {
+      "price_1": {
         "value": "14.75р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -154,9 +210,15 @@
       "power": "5.2",
       "ibu": "20",
       "category": "IPA - Imperial / Double",
-      "price": {
+      "price_1": {
         "value": "17.00р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -174,9 +236,15 @@
       "power": "5.8",
       "ibu": "20",
       "category": "IPA - American",
-      "price": {
+      "price_1": {
         "value": "13.00р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -194,9 +262,15 @@
       "power": "6.3",
       "ibu": "20",
       "category": "IPA",
-      "price": {
+      "price_1": {
         "value": "11.20р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -214,9 +288,15 @@
       "power": "4.8",
       "ibu": "20",
       "category": "Stout - Milk / Sweet",
-      "price": {
+      "price_1": {
         "value": "18.35р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -234,9 +314,15 @@
       "power": "5.5",
       "ibu": "20",
       "category": "Belgian - Quadrupel",
-      "price": {
+      "price_1": {
         "value": "15.00р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -254,9 +340,15 @@
       "power": "5",
       "ibu": "20",
       "category": "IPA - MilkSnake",
-      "price": {
+      "price_1": {
         "value": "12.80р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -274,9 +366,15 @@
       "power": "4",
       "ibu": "20",
       "category": "Sour - Fruited",
-      "price": {
+      "price_1": {
         "value": "7.50р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -294,9 +392,15 @@
       "power": "6.8",
       "ibu": "20",
       "category": "Sour - Other Gose",
-      "price": {
+      "price_1": {
         "value": "9.99р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -314,9 +418,15 @@
       "power": "11",
       "ibu": "20",
       "category": "Pole Ale - American",
-      "price": {
+      "price_1": {
         "value": "24.00р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -334,9 +444,15 @@
       "power": "4.7",
       "ibu": "20",
       "category": "Wheat Beer",
-      "price": {
+      "price_1": {
         "value": "19.00р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -354,9 +470,15 @@
       "power": "5.7",
       "ibu": "20",
       "category": "IPA - New England / Hazy",
-      "price": {
+      "price_1": {
         "value": "17.50р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -374,9 +496,15 @@
       "power": "6.4",
       "ibu": "20",
       "category": "Pilsner - German",
-      "price": {
+      "price_1": {
         "value": "12.30р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -394,9 +522,15 @@
       "power": "8.2",
       "ibu": "20",
       "category": "Lager",
-      "price": {
+      "price_1": {
         "value": "10.10р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -414,9 +548,15 @@
       "power": "8.2",
       "ibu": "20",
       "category": "Lager",
-      "price": {
+      "price_1": {
         "value": "10.10р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -434,9 +574,15 @@
       "power": "8.2",
       "ibu": "20",
       "category": "Lager",
-      "price": {
+      "price_1": {
         "value": "10.10р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -454,9 +600,15 @@
       "power": "8.2",
       "ibu": "20",
       "category": "Lager",
-      "price": {
+      "price_1": {
         "value": "10.10р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
@@ -474,9 +626,15 @@
       "power": "8.2",
       "ibu": "20",
       "category": "Lager",
-      "price": {
+      "price_1": {
         "value": "10.10р",
-        "unit": "0.5 кг/л"
+        "unit": "0.5 кг/л",
+        "old": null
+      },
+      "price_2": {
+        "value": "10.10р",
+        "unit": "0.5 кг/л",
+        "old": null
       },
       "colors": {
         "category": null
