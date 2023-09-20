@@ -51,6 +51,15 @@
         </template>
     </div>
 </header>
+<div id="test-1"></div>
+<div id="test-2"></div>
+<div id="test-3"></div>
+<div id="error" style="color: red;"></div>
+<script>
+    document.getElementById('test-1').innerHTML = window.screen.availWidth + 'x' + window.screen.availHeight;
+    document.getElementById('test-2').innerHTML = window.screen.width + 'x' + window.screen.height;
+    document.getElementById('test-3').innerHTML = window.innerWidth + 'x' + window.innerHeight;
+</script>
 <main id="app" x-data="BeerTable">
     <div id="preloader" class="preloader" x-show="loading">
         <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
