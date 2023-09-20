@@ -15,6 +15,13 @@
       "price": "0.85р"
     }
   ],
+  "settings": {
+    "column_names": {
+      "1": "",
+      "2": "",
+      "3": ""
+    }
+  },
   "items": [
     {
       "active": true,

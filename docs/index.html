@@ -56,10 +56,10 @@
         <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
     </div>
     <div class="beer-table" :class="`columns-${columns.length}`" x-cloak x-show="!loading">
-        <template x-for="column in columns">
+        <template x-for="(column, index) in columns">
             <div class="column">
                 <div class="column-header">
-                    <div class="info"></div>
+                    <div class="info" x-text="columnNames[index + 1]"></div>
                     <div class="price">Магазин</div>
                     <div class="price">Бар</div>
                 </div>
